@@ -1,0 +1,130 @@
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/sbin/start-master.sh
+org.apache.spark.deploy.master.Master running as process 3355760.  Stop it first.
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/bin/spark-class org.apache.spark.deploy.worker.Worker --work-dir /storage/work/aat5564/Lab4 spark://p-bc-5073:7077
+25/02/05 15:53:09 INFO SparkContext: Running Spark version 3.3.0
+25/02/05 15:53:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/05 15:53:09 INFO ResourceUtils: ==============================================================
+25/02/05 15:53:09 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/02/05 15:53:09 INFO ResourceUtils: ==============================================================
+25/02/05 15:53:09 INFO SparkContext: Submitted application: Lab4 BMB hastag changes
+25/02/05 15:53:09 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/02/05 15:53:09 INFO ResourceProfile: Limiting resource is cpu
+25/02/05 15:53:09 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/02/05 15:53:09 INFO SecurityManager: Changing view acls to: aat5564
+25/02/05 15:53:09 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/05 15:53:09 INFO SecurityManager: Changing view acls groups to: 
+25/02/05 15:53:09 INFO SecurityManager: Changing modify acls groups to: 
+25/02/05 15:53:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/05 15:53:09 INFO Utils: Successfully started service 'sparkDriver' on port 33407.
+25/02/05 15:53:09 INFO SparkEnv: Registering MapOutputTracker
+25/02/05 15:53:09 INFO SparkEnv: Registering BlockManagerMaster
+25/02/05 15:53:09 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/02/05 15:53:09 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/02/05 15:53:09 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/02/05 15:53:09 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b11784a5-31db-491b-9ba9-0d159d2fea7e
+25/02/05 15:53:09 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/02/05 15:53:09 INFO SparkEnv: Registering OutputCommitCoordinator
+25/02/05 15:53:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/02/05 15:53:10 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://p-bc-5073:7077...
+25/02/05 15:53:10 INFO TransportClientFactory: Successfully created connection to p-bc-5073/10.6.8.83:7077 after 29 ms (0 ms spent in bootstraps)
+25/02/05 15:53:10 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250205155310-0000
+25/02/05 15:53:10 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36591.
+25/02/05 15:53:10 INFO NettyBlockTransferService: Server created on p-bc-5073.2e.hpc.psu.edu:36591
+25/02/05 15:53:10 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/02/05 15:53:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, p-bc-5073.2e.hpc.psu.edu, 36591, None)
+25/02/05 15:53:10 INFO BlockManagerMasterEndpoint: Registering block manager p-bc-5073.2e.hpc.psu.edu:36591 with 434.4 MiB RAM, BlockManagerId(driver, p-bc-5073.2e.hpc.psu.edu, 36591, None)
+25/02/05 15:53:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, p-bc-5073.2e.hpc.psu.edu, 36591, None)
+25/02/05 15:53:10 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, p-bc-5073.2e.hpc.psu.edu, 36591, None)
+25/02/05 15:53:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250205155310-0000/0 on worker-20250205155037-10.6.8.83-34333 (10.6.8.83:34333) with 4 core(s)
+25/02/05 15:53:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250205155310-0000/0 on hostPort 10.6.8.83:34333 with 4 core(s), 1024.0 MiB RAM
+25/02/05 15:53:10 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250205155310-0000/0 is now RUNNING
+25/02/05 15:53:10 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+SPARK_MASTER_HOST=p-bc-5073
+SPARK_MASTER_PORT=7077
+
+real	0m38.708s
+user	0m19.565s
+sys	0m1.274s
+srun: Job 32124745 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
+srun: Job 32124745 step creation still disabled, retrying (Requested nodes are busy)
