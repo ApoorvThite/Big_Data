@@ -1,0 +1,534 @@
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/sbin/start-master.sh
+starting org.apache.spark.deploy.master.Master, logging to /storage/work/aat5564/Lab5/spark-aat5564-org.apache.spark.deploy.master.Master-1-p-bc-5028.out
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/bin/spark-class org.apache.spark.deploy.worker.Worker --work-dir /storage/work/aat5564/Lab5 spark://p-bc-5028:7077
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/02/12 23:14:16 INFO Worker: Started daemon with process name: 1498551@p-bc-5044
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/02/12 23:14:16 INFO SignalUtils: Registering signal handler for TERM
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for HUP
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for INT
+25/02/12 23:14:17 INFO Worker: Started daemon with process name: 2132555@p-bc-5028
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for TERM
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for HUP
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for INT
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/02/12 23:14:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:17 INFO Worker: Started daemon with process name: 3000942@p-bc-5045
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for TERM
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for HUP
+25/02/12 23:14:17 INFO SignalUtils: Registering signal handler for INT
+25/02/12 23:14:17 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:17 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:17 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:17 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:17 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:18 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:18 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:18 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:18 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/02/12 23:14:18 INFO Worker: Started daemon with process name: 70690@p-bc-5038
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for TERM
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for HUP
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for INT
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/02/12 23:14:18 INFO Worker: Started daemon with process name: 2870250@p-bc-5040
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for TERM
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for HUP
+25/02/12 23:14:18 INFO SignalUtils: Registering signal handler for INT
+25/02/12 23:14:18 INFO Utils: Successfully started service 'sparkWorker' on port 35485.
+25/02/12 23:14:18 INFO Worker: Worker decommissioning not enabled.
+25/02/12 23:14:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:18 INFO Worker: Starting Spark worker 10.6.8.54:35485 with 1 cores, 15.0 GiB RAM
+25/02/12 23:14:18 INFO Worker: Running Spark version 3.3.0
+25/02/12 23:14:18 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/02/12 23:14:18 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:18 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/02/12 23:14:18 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:18 INFO Utils: Successfully started service 'sparkWorker' on port 39175.
+25/02/12 23:14:18 INFO Worker: Worker decommissioning not enabled.
+25/02/12 23:14:18 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:18 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:18 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:18 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:18 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/02/12 23:14:19 INFO Worker: Starting Spark worker 10.6.8.38:39175 with 1 cores, 15.0 GiB RAM
+25/02/12 23:14:19 INFO Worker: Running Spark version 3.3.0
+25/02/12 23:14:19 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/02/12 23:14:19 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5044.2e.hpc.psu.edu:8081
+25/02/12 23:14:19 INFO Worker: Connecting to master p-bc-5028:7077...
+25/02/12 23:14:19 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:19 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/02/12 23:14:19 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:19 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 35 ms (0 ms spent in bootstraps)
+25/02/12 23:14:19 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:19 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:19 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:19 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:19 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:19 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:19 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:19 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:19 INFO Worker: Successfully registered with master spark://p-bc-5028:7077
+25/02/12 23:14:19 INFO Utils: Successfully started service 'sparkWorker' on port 36239.
+25/02/12 23:14:19 INFO Worker: Worker decommissioning not enabled.
+25/02/12 23:14:19 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/02/12 23:14:19 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5028.2e.hpc.psu.edu:8081
+25/02/12 23:14:19 INFO Worker: Connecting to master p-bc-5028:7077...
+25/02/12 23:14:19 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 40 ms (0 ms spent in bootstraps)
+25/02/12 23:14:19 INFO Worker: Starting Spark worker 10.6.8.55:36239 with 1 cores, 15.0 GiB RAM
+25/02/12 23:14:19 INFO Worker: Successfully registered with master spark://p-bc-5028:7077
+25/02/12 23:14:19 INFO Worker: Running Spark version 3.3.0
+25/02/12 23:14:19 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/02/12 23:14:19 INFO Utils: Successfully started service 'sparkWorker' on port 41433.
+25/02/12 23:14:19 INFO Worker: Worker decommissioning not enabled.
+25/02/12 23:14:19 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:19 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/02/12 23:14:19 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:19 INFO Utils: Successfully started service 'sparkWorker' on port 33779.
+25/02/12 23:14:19 INFO Worker: Worker decommissioning not enabled.
+25/02/12 23:14:20 INFO Worker: Starting Spark worker 10.6.8.48:41433 with 1 cores, 15.0 GiB RAM
+25/02/12 23:14:20 INFO Worker: Running Spark version 3.3.0
+25/02/12 23:14:20 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/02/12 23:14:20 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:20 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/02/12 23:14:20 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:20 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/02/12 23:14:20 INFO Worker: Starting Spark worker 10.6.8.50:33779 with 1 cores, 15.0 GiB RAM
+25/02/12 23:14:20 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5045.2e.hpc.psu.edu:8081
+25/02/12 23:14:20 INFO Worker: Running Spark version 3.3.0
+25/02/12 23:14:20 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/02/12 23:14:20 INFO Worker: Connecting to master p-bc-5028:7077...
+25/02/12 23:14:20 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:20 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/02/12 23:14:20 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:20 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/02/12 23:14:20 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5038.2e.hpc.psu.edu:8081
+25/02/12 23:14:20 INFO Worker: Connecting to master p-bc-5028:7077...
+25/02/12 23:14:20 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 92 ms (0 ms spent in bootstraps)
+25/02/12 23:14:20 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 39 ms (0 ms spent in bootstraps)
+25/02/12 23:14:20 INFO Worker: Successfully registered with master spark://p-bc-5028:7077
+25/02/12 23:14:20 INFO Worker: Successfully registered with master spark://p-bc-5028:7077
+25/02/12 23:14:20 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/02/12 23:14:20 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5040.2e.hpc.psu.edu:8081
+25/02/12 23:14:20 INFO Worker: Connecting to master p-bc-5028:7077...
+25/02/12 23:14:21 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 44 ms (0 ms spent in bootstraps)
+25/02/12 23:14:21 INFO Worker: Successfully registered with master spark://p-bc-5028:7077
+25/02/12 23:14:36 INFO SparkContext: Running Spark version 3.3.0
+25/02/12 23:14:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/02/12 23:14:36 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:36 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/02/12 23:14:36 INFO ResourceUtils: ==============================================================
+25/02/12 23:14:36 INFO SparkContext: Submitted application: Lab 5 Top Reviews
+25/02/12 23:14:36 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/02/12 23:14:36 INFO ResourceProfile: Limiting resource is cpu
+25/02/12 23:14:36 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/02/12 23:14:36 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:36 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:36 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:36 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:36 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:37 INFO Utils: Successfully started service 'sparkDriver' on port 38911.
+25/02/12 23:14:37 INFO SparkEnv: Registering MapOutputTracker
+25/02/12 23:14:37 INFO SparkEnv: Registering BlockManagerMaster
+25/02/12 23:14:37 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/02/12 23:14:37 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/02/12 23:14:37 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/02/12 23:14:37 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-a3c0e202-e0f0-46f3-8ea7-80d8d98d4ee9
+25/02/12 23:14:37 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/02/12 23:14:37 INFO SparkEnv: Registering OutputCommitCoordinator
+25/02/12 23:14:37 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/02/12 23:14:37 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://p-bc-5028:7077...
+25/02/12 23:14:37 INFO TransportClientFactory: Successfully created connection to p-bc-5028/10.6.8.38:7077 after 28 ms (0 ms spent in bootstraps)
+25/02/12 23:14:37 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250212231437-0000
+25/02/12 23:14:37 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44537.
+25/02/12 23:14:37 INFO NettyBlockTransferService: Server created on p-bc-5028.2e.hpc.psu.edu:44537
+25/02/12 23:14:37 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/02/12 23:14:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, p-bc-5028.2e.hpc.psu.edu, 44537, None)
+25/02/12 23:14:37 INFO BlockManagerMasterEndpoint: Registering block manager p-bc-5028.2e.hpc.psu.edu:44537 with 434.4 MiB RAM, BlockManagerId(driver, p-bc-5028.2e.hpc.psu.edu, 44537, None)
+25/02/12 23:14:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, p-bc-5028.2e.hpc.psu.edu, 44537, None)
+25/02/12 23:14:38 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, p-bc-5028.2e.hpc.psu.edu, 44537, None)
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250212231437-0000/0 on worker-20250212231419-10.6.8.55-36239 (10.6.8.55:36239) with 1 core(s)
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: Granted executor ID app-20250212231437-0000/0 on hostPort 10.6.8.55:36239 with 1 core(s), 1024.0 MiB RAM
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250212231437-0000/1 on worker-20250212231418-10.6.8.54-35485 (10.6.8.54:35485) with 1 core(s)
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: Granted executor ID app-20250212231437-0000/1 on hostPort 10.6.8.54:35485 with 1 core(s), 1024.0 MiB RAM
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250212231437-0000/2 on worker-20250212231419-10.6.8.50-33779 (10.6.8.50:33779) with 1 core(s)
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: Granted executor ID app-20250212231437-0000/2 on hostPort 10.6.8.50:33779 with 1 core(s), 1024.0 MiB RAM
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250212231437-0000/3 on worker-20250212231419-10.6.8.48-41433 (10.6.8.48:41433) with 1 core(s)
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: Granted executor ID app-20250212231437-0000/3 on hostPort 10.6.8.48:41433 with 1 core(s), 1024.0 MiB RAM
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250212231437-0000/4 on worker-20250212231418-10.6.8.38-39175 (10.6.8.38:39175) with 1 core(s)
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: Granted executor ID app-20250212231437-0000/4 on hostPort 10.6.8.38:39175 with 1 core(s), 1024.0 MiB RAM
+25/02/12 23:14:38 INFO Worker: Asked to launch executor app-20250212231437-0000/4 for Lab 5 Top Reviews
+25/02/12 23:14:38 INFO Worker: Asked to launch executor app-20250212231437-0000/1 for Lab 5 Top Reviews
+25/02/12 23:14:38 INFO Worker: Asked to launch executor app-20250212231437-0000/2 for Lab 5 Top Reviews
+25/02/12 23:14:38 INFO Worker: Asked to launch executor app-20250212231437-0000/0 for Lab 5 Top Reviews
+25/02/12 23:14:38 INFO Worker: Asked to launch executor app-20250212231437-0000/3 for Lab 5 Top Reviews
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:38 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/work/aat5564/Lab5/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=38911" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5028.2e.hpc.psu.edu:38911" "--executor-id" "4" "--hostname" "10.6.8.38" "--cores" "1" "--app-id" "app-20250212231437-0000" "--worker-url" "spark://Worker@10.6.8.38:39175"
+25/02/12 23:14:38 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/work/aat5564/Lab5/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=38911" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5028.2e.hpc.psu.edu:38911" "--executor-id" "1" "--hostname" "10.6.8.54" "--cores" "1" "--app-id" "app-20250212231437-0000" "--worker-url" "spark://Worker@10.6.8.54:35485"
+25/02/12 23:14:38 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/work/aat5564/Lab5/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=38911" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5028.2e.hpc.psu.edu:38911" "--executor-id" "2" "--hostname" "10.6.8.50" "--cores" "1" "--app-id" "app-20250212231437-0000" "--worker-url" "spark://Worker@10.6.8.50:33779"
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls to: aat5564
+25/02/12 23:14:38 INFO SecurityManager: Changing view acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: Changing modify acls groups to: 
+25/02/12 23:14:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aat5564); groups with view permissions: Set(); users  with modify permissions: Set(aat5564); groups with modify permissions: Set()
+25/02/12 23:14:38 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+25/02/12 23:14:38 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/work/aat5564/Lab5/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=38911" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5028.2e.hpc.psu.edu:38911" "--executor-id" "0" "--hostname" "10.6.8.55" "--cores" "1" "--app-id" "app-20250212231437-0000" "--worker-url" "spark://Worker@10.6.8.55:36239"
+25/02/12 23:14:38 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/work/aat5564/Lab5/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=38911" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5028.2e.hpc.psu.edu:38911" "--executor-id" "3" "--hostname" "10.6.8.48" "--cores" "1" "--app-id" "app-20250212231437-0000" "--worker-url" "spark://Worker@10.6.8.48:41433"
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250212231437-0000/4 is now RUNNING
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250212231437-0000/1 is now RUNNING
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250212231437-0000/2 is now RUNNING
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250212231437-0000/0 is now RUNNING
+25/02/12 23:14:38 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250212231437-0000/3 is now RUNNING
+25/02/12 23:14:38 WARN SparkContext: Spark is not running in local mode, therefore the checkpoint directory must not be on the local filesystem. Directory '/storage/home/aat5564/scratch' appears to be on the local filesystem.
+root
+ |-- MovieID: integer (nullable = true)
+ |-- MovieTitle: string (nullable = true)
+ |-- Genres: string (nullable = true)
+
++-------+--------------------+--------------------+
+|MovieID|          MovieTitle|              Genres|
++-------+--------------------+--------------------+
+|      1|    Toy Story (1995)|Adventure|Animati...|
+|      2|      Jumanji (1995)|Adventure|Childre...|
+|      3|Grumpier Old Men ...|      Comedy|Romance|
+|      4|Waiting to Exhale...|Comedy|Drama|Romance|
+|      5|Father of the Bri...|              Comedy|
+|      6|         Heat (1995)|Action|Crime|Thri...|
+|      7|      Sabrina (1995)|      Comedy|Romance|
+|      8| Tom and Huck (1995)|  Adventure|Children|
+|      9| Sudden Death (1995)|              Action|
+|     10|    GoldenEye (1995)|Action|Adventure|...|
++-------+--------------------+--------------------+
+only showing top 10 rows
+
+root
+ |-- UserID: integer (nullable = true)
+ |-- MovieID: integer (nullable = true)
+ |-- Rating: float (nullable = true)
+ |-- RatingID: integer (nullable = true)
+
++------+-------+------+---------+
+|UserID|MovieID|Rating| RatingID|
++------+-------+------+---------+
+|     1|    122|   2.0|945544824|
+|     1|    172|   1.0|945544871|
+|     1|   1221|   5.0|945544788|
+|     1|   1441|   4.0|945544871|
+|     1|   1609|   3.0|945544824|
++------+-------+------+---------+
+only showing top 5 rows
+
++-------+--------------------+--------------------+
+|MovieID|          MovieTitle|              Genres|
++-------+--------------------+--------------------+
+|    480|Jurassic Park (1993)|Action|Adventure|...|
++-------+--------------------+--------------------+
+
++------+-------+------+----------+
+|UserID|MovieID|Rating|  RatingID|
++------+-------+------+----------+
+|     1|   1221|   5.0| 945544788|
+|     1|   1441|   4.0| 945544871|
+|     1|   1609|   3.0| 945544824|
+|     1|   1961|   3.0| 945544871|
+|     2|   1193|   4.0|1008942667|
++------+-------+------+----------+
+only showing top 5 rows
+
+5565040
++-------+--------------------+
+|MovieID|          MovieTitle|
++-------+--------------------+
+|      1|    Toy Story (1995)|
+|      2|      Jumanji (1995)|
+|      3|Grumpier Old Men ...|
+|      4|Waiting to Exhale...|
+|      5|Father of the Bri...|
++-------+--------------------+
+only showing top 5 rows
+
++------+
+|Rating|
++------+
+|   2.0|
+|   1.0|
+|   5.0|
+|   4.0|
+|   3.0|
++------+
+only showing top 5 rows
+
++-------+------+
+|MovieID|Rating|
++-------+------+
+|    122|   2.0|
+|    172|   1.0|
+|   1221|   5.0|
+|   1441|   4.0|
+|   1609|   3.0|
++-------+------+
+only showing top 5 rows
+
++-------+-----------------+------------------+------------------+-------------------+
+|summary|           UserID|           MovieID|            Rating|           RatingID|
++-------+-----------------+------------------+------------------+-------------------+
+|  count|         24404096|          24404096|          24404096|           24404096|
+|   mean|129374.0449006593| 13534.87863062004|3.5265681220070597|1.149964358141366E9|
+| stddev|74963.02221786586|27547.695592047414|1.0642182955183548| 1.94126216449925E8|
+|    min|                1|                 1|               0.5|          789652004|
+|    max|           259137|            165201|               5.0|         1476687603|
++-------+-----------------+------------------+------------------+-------------------+
+
++---------------------+
+|split(Genres, \|, -1)|
++---------------------+
+| [Adventure, Anima...|
+| [Adventure, Child...|
+|    [Comedy, Romance]|
+| [Comedy, Drama, R...|
+|             [Comedy]|
++---------------------+
+only showing top 5 rows
+
+root
+ |-- MovieID: integer (nullable = true)
+ |-- MovieTitle: string (nullable = true)
+ |-- Genres: string (nullable = true)
+ |-- Genres_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+
++-------+--------------------+--------------------+--------------------+
+|MovieID|          MovieTitle|              Genres|        Genres_Array|
++-------+--------------------+--------------------+--------------------+
+|      1|    Toy Story (1995)|Adventure|Animati...|[Adventure, Anima...|
+|      2|      Jumanji (1995)|Adventure|Childre...|[Adventure, Child...|
+|      3|Grumpier Old Men ...|      Comedy|Romance|   [Comedy, Romance]|
+|      4|Waiting to Exhale...|Comedy|Drama|Romance|[Comedy, Drama, R...|
+|      5|Father of the Bri...|              Comedy|            [Comedy]|
++-------+--------------------+--------------------+--------------------+
+only showing top 5 rows
+
++-------+--------------------+---------+------------+
+|MovieID|          MovieTitle|   Genres|Genres_Array|
++-------+--------------------+---------+------------+
+|    941|Mark of Zorro, Th...|Adventure| [Adventure]|
+|   1070|        Macao (1952)|Adventure| [Adventure]|
+|   1849|Prince Valiant (1...|Adventure| [Adventure]|
+|   2477|   Firewalker (1986)|Adventure| [Adventure]|
+|   2537|Beyond the Poseid...|Adventure| [Adventure]|
++-------+--------------------+---------+------------+
+only showing top 5 rows
+
++-------+-----------+
+|MovieID|sum(Rating)|
++-------+-----------+
+|  44022|    12694.0|
+|  68135|     6595.0|
+|   1580|   143086.0|
+|   3175|    56350.5|
++-------+-----------+
+only showing top 4 rows
+
++-------+-----+
+|MovieID|count|
++-------+-----+
+|   1580|40108|
+|   3175|15705|
+|   1088|12934|
+|   1645|13534|
++-------+-----+
+only showing top 4 rows
+
++-----------------+
+|       avg(count)|
++-----------------+
+|618.7180488299572|
++-----------------+
+
+618.7180488299572
++----------+
+|max(count)|
++----------+
+|     86629|
++----------+
+
++-------+-----------+-----+
+|MovieID|sum(Rating)|count|
++-------+-----------+-----+
+|   1580|   143086.0|40108|
+|   3175|    56350.5|15705|
+|    471|    44071.0|12058|
+|   1088|    41763.5|12934|
++-------+-----------+-----+
+only showing top 4 rows
+
++-------+-----------+-----+------------------+
+|MovieID|sum(Rating)|count|         AvgRating|
++-------+-----------+-----+------------------+
+|   1580|   143086.0|40108| 3.567517702204049|
+|   3175|    56350.5|15705|3.5880611270296083|
+|    471|    44071.0|12058|3.6549178968319787|
+|   1088|    41763.5|12934|3.2289701561775166|
++-------+-----------+-----+------------------+
+only showing top 4 rows
+
+root
+ |-- MovieID: integer (nullable = true)
+ |-- MovieTitle: string (nullable = true)
+ |-- Genres: string (nullable = true)
+ |-- Genres_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+
+root
+ |-- MovieID: integer (nullable = true)
+ |-- sum(Rating): double (nullable = true)
+ |-- count: long (nullable = false)
+ |-- AvgRating: double (nullable = true)
+ |-- MovieTitle: string (nullable = true)
+ |-- Genres: string (nullable = true)
+ |-- Genres_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+
++-------+-----------+-----+------------------+--------------------+--------------------+--------------------+
+|MovieID|sum(Rating)|count|         AvgRating|          MovieTitle|              Genres|        Genres_Array|
++-------+-----------+-----+------------------+--------------------+--------------------+--------------------+
+|  44022|    12694.0| 3824| 3.319560669456067|Ice Age 2: The Me...|Adventure|Animati...|[Adventure, Anima...|
+|  68135|     6595.0| 2119|3.1123171307220385|     17 Again (2009)|        Comedy|Drama|     [Comedy, Drama]|
+|   1580|   143086.0|40108| 3.567517702204049|Men in Black (a.k...|Action|Comedy|Sci-Fi|[Action, Comedy, ...|
+|   3175|    56350.5|15705|3.5880611270296083| Galaxy Quest (1999)|Adventure|Comedy|...|[Adventure, Comed...|
+|    471|    44071.0|12058|3.6549178968319787|Hudsucker Proxy, ...|              Comedy|            [Comedy]|
++-------+-----------+-----+------------------+--------------------+--------------------+--------------------+
+only showing top 5 rows
+
++-------+------------------+-----+--------------------+--------------------+--------------------+
+|MovieID|         AvgRating|count|          MovieTitle|              Genres|        Genres_Array|
++-------+------------------+-----+--------------------+--------------------+--------------------+
+|   1580| 3.567517702204049|40108|Men in Black (a.k...|Action|Comedy|Sci-Fi|[Action, Comedy, ...|
+|   3175|3.5880611270296083|15705| Galaxy Quest (1999)|Adventure|Comedy|...|[Adventure, Comed...|
+|    471|3.6549178968319787|12058|Hudsucker Proxy, ...|              Comedy|            [Comedy]|
+|   5803| 2.766935483870968| 1240|        I Spy (2002)|Action|Adventure|...|[Action, Adventur...|
+|    833|2.7113502935420746| 1533|High School High ...|              Comedy|            [Comedy]|
++-------+------------------+-----+--------------------+--------------------+--------------------+
+only showing top 5 rows
+
++-------+-----------------+------------------+-----------------+--------------------+--------------------+
+|summary|          MovieID|         AvgRating|            count|          MovieTitle|              Genres|
++-------+-----------------+------------------+-----------------+--------------------+--------------------+
+|  count|            11265|             11265|            11265|               11265|               11265|
+|   mean|78293.00497114958|3.0419608265426272|792.6498002663116|                null|                null|
+| stddev|55185.33532769928|0.6902997745615036|3298.663823942924|                null|                null|
+|    min|                1|               0.5|                1|#1 Cheerleader Ca...|Action|Adventure|...|
+|    max|           165195|               5.0|            86629|     キサラギ (2007)|      Comedy|Western|
++-------+-----------------+------------------+-----------------+--------------------+--------------------+
+
++-------+---------+-----+--------------------+--------------------+--------------------+
+|MovieID|AvgRating|count|          MovieTitle|              Genres|        Genres_Array|
++-------+---------+-----+--------------------+--------------------+--------------------+
+| 121350|      5.0|    1|Cops and Robbers ...|        Comedy|Crime|     [Comedy, Crime]|
+| 156385|      5.0|    1|He's Beautiful! (...|Comedy|Drama|Romance|[Comedy, Drama, R...|
+| 139976|      5.0|    1|Fantozzi in Heave...|              Comedy|            [Comedy]|
+| 158344|      5.0|    1|For Better, for W...|      Comedy|Romance|   [Comedy, Romance]|
+| 133575|      5.0|    1|Do Detectives Thi...|              Comedy|            [Comedy]|
+| 118995|      5.0|    1|The Two Firefight...|              Comedy|            [Comedy]|
+| 129905|      5.0|    1|The Floating Cast...|        Comedy|Drama|     [Comedy, Drama]|
+| 107434|      5.0|    1|Diplomatic Immuni...|              Comedy|            [Comedy]|
+| 105461|      5.0|    1|Adventures of a T...|Adventure|Childre...|[Adventure, Child...|
+| 139952|      5.0|    1|Torno a vivere da...|              Comedy|            [Comedy]|
++-------+---------+-----+--------------------+--------------------+--------------------+
+only showing top 10 rows
+
++-------+------------------+-----+--------------------+--------------------+--------------------+
+|MovieID|         AvgRating|count|          MovieTitle|              Genres|        Genres_Array|
++-------+------------------+-----+--------------------+--------------------+--------------------+
+|    750| 4.216323969138765|27089|Dr. Strangelove o...|          Comedy|War|       [Comedy, War]|
+|   2324| 4.170483028166022|23539|Life Is Beautiful...|Comedy|Drama|Roma...|[Comedy, Drama, R...|
+|    296| 4.163386133160926|83523| Pulp Fiction (1994)|Comedy|Crime|Dram...|[Comedy, Crime, D...|
+|   1136| 4.159196912024876|37306|Monty Python and ...|Adventure|Comedy|...|[Adventure, Comed...|
+|    950|4.1555836139169475| 3564|Thin Man, The (1934)|        Comedy|Crime|     [Comedy, Crime]|
++-------+------------------+-----+--------------------+--------------------+--------------------+
+only showing top 5 rows
+
++-------+------------------+-----+--------------------+--------------------+
+|MovieID|         AvgRating|count|          MovieTitle|              Genres|
++-------+------------------+-----+--------------------+--------------------+
+|    750| 4.216323969138765|27089|Dr. Strangelove o...|          Comedy|War|
+|   2324| 4.170483028166022|23539|Life Is Beautiful...|Comedy|Drama|Roma...|
+|    296| 4.163386133160926|83523| Pulp Fiction (1994)|Comedy|Crime|Dram...|
+|   1136| 4.159196912024876|37306|Monty Python and ...|Adventure|Comedy|...|
+|    950|4.1555836139169475| 3564|Thin Man, The (1934)|        Comedy|Crime|
++-------+------------------+-----+--------------------+--------------------+
+only showing top 5 rows
+
+25/02/12 23:19:04 INFO Worker: Asked to kill executor app-20250212231437-0000/4
+25/02/12 23:19:04 INFO Worker: Asked to kill executor app-20250212231437-0000/2
+25/02/12 23:19:04 INFO ExecutorRunner: Runner thread for executor app-20250212231437-0000/4 interrupted
+25/02/12 23:19:04 INFO ExecutorRunner: Runner thread for executor app-20250212231437-0000/2 interrupted
+25/02/12 23:19:04 INFO ExecutorRunner: Killing process!
+25/02/12 23:19:04 INFO ExecutorRunner: Killing process!
+25/02/12 23:19:04 INFO Worker: Asked to kill executor app-20250212231437-0000/0
+25/02/12 23:19:04 INFO ExecutorRunner: Runner thread for executor app-20250212231437-0000/0 interrupted
+25/02/12 23:19:04 INFO Worker: Asked to kill executor app-20250212231437-0000/1
+25/02/12 23:19:04 INFO ExecutorRunner: Killing process!
+25/02/12 23:19:04 INFO ExecutorRunner: Runner thread for executor app-20250212231437-0000/1 interrupted
+25/02/12 23:19:04 INFO ExecutorRunner: Killing process!
+25/02/12 23:19:04 INFO Worker: Asked to kill executor app-20250212231437-0000/3
+25/02/12 23:19:04 INFO ExecutorRunner: Runner thread for executor app-20250212231437-0000/3 interrupted
+25/02/12 23:19:04 INFO ExecutorRunner: Killing process!
+25/02/12 23:19:04 INFO Worker: Executor app-20250212231437-0000/2 finished with state KILLED exitStatus 143
+25/02/12 23:19:04 INFO Worker: Executor app-20250212231437-0000/4 finished with state KILLED exitStatus 143
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 4
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 2
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250212231437-0000, execId=2)
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250212231437-0000, execId=4)
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Application app-20250212231437-0000 removed, cleanupLocalDirs = true
+25/02/12 23:19:04 INFO Worker: Cleaning up local directories for application app-20250212231437-0000
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Application app-20250212231437-0000 removed, cleanupLocalDirs = true
+25/02/12 23:19:04 INFO Worker: Cleaning up local directories for application app-20250212231437-0000
+25/02/12 23:19:04 INFO Worker: Executor app-20250212231437-0000/0 finished with state KILLED exitStatus 143
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 0
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250212231437-0000, execId=0)
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Application app-20250212231437-0000 removed, cleanupLocalDirs = true
+25/02/12 23:19:04 INFO Worker: Cleaning up local directories for application app-20250212231437-0000
+25/02/12 23:19:04 INFO Worker: Executor app-20250212231437-0000/1 finished with state KILLED exitStatus 143
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 1
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250212231437-0000, execId=1)
+25/02/12 23:19:04 INFO Worker: Executor app-20250212231437-0000/3 finished with state KILLED exitStatus 143
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Application app-20250212231437-0000 removed, cleanupLocalDirs = true
+25/02/12 23:19:04 INFO Worker: Cleaning up local directories for application app-20250212231437-0000
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 3
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250212231437-0000, execId=3)
+25/02/12 23:19:04 INFO ExternalShuffleBlockResolver: Application app-20250212231437-0000 removed, cleanupLocalDirs = true
+25/02/12 23:19:04 INFO Worker: Cleaning up local directories for application app-20250212231437-0000
+SPARK_MASTER_HOST=p-bc-5028
+SPARK_MASTER_PORT=7077
+
+real	4m57.610s
+user	1m4.627s
+sys	0m2.684s
